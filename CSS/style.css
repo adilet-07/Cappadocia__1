@@ -1,0 +1,358 @@
+@import url('http://fonts.cdnfonts.com/css/balqis');
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+}
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    /* border: #000 1px solid; */
+}
+#header{
+    height: 1080px;
+    background: url('../img/bac.jpg')no-repeat center center/cover;
+}
+nav,ul{
+    display: flex;
+}
+nav{
+    justify-content: space-between;
+    padding: 40px 0;
+}
+li , a{
+    transition: .3s;
+    color: #000;
+    margin: 0 20px;
+    font-size: 20px;
+}
+li a:hover{
+    border-radius: 5px;
+    border-bottom: 3px solid red;
+}
+.content{
+    height: 700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1,.Slaider__Zag,h2 ,h3{
+    font-family: 'Balqis', sans-serif;
+}
+.Slaider__text,.Slaider__pot,.slaider_two_text ,
+.two_num ,.Sultan__text ,.Cave__text,.Canve__p ,
+.Price__text,.tur ,.form__p,.buttun__form,.footer__i{
+    font-family: 'Roboto Condensed', sans-serif;
+}
+h1,.Slaider__Zag{
+    font-weight: 400;
+}
+.Slaider__pot,.two_num{
+    font-size: 24px;
+}
+.Slaider__pot{
+    margin: -95px 0px 80px 455px;
+}
+h1{ 
+    font-size: 230px;
+}
+.tur{
+    font-weight: 300;
+    font-size: 50px;
+    margin: -60px 0px 0px 420px;
+}
+#slaider{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.Slaider__Zag{
+    margin: 60px 0 60px 230px;
+    color:#E2AB3F;
+    font-size: 120px;
+}
+.Slaider__content{
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 150px;
+}
+.img__slaider{
+    position: relative;
+}
+.imgSlaiber{
+    z-index: 0;
+    max-width: 75%;
+    min-height:650px ;
+}
+.img__back , .img__next{
+    position: absolute;
+    top: 270px;
+    z-index: 1;
+}
+.img__back{
+    left: 0px;
+    top: 270px;
+}
+/* .img__next{
+    right: 245px;
+} */
+.Slaider__text{
+    max-width: 545px;
+    font-size: 18px;
+    margin: 40px 0px 50px -200px;
+}
+.muz{
+    width: 278px;
+}
+/* ------------------------------ */
+
+#slaider__two{
+    margin: 0 auto;
+    max-width: 1440px;
+}
+.content__slaider{
+    display: flex;
+}
+.text-two , .two_slaid{
+    width: 720px;
+}
+.slaid{
+    z-index: 0;
+    max-width: 100%;;
+}
+.slaider_two_text{
+    width: 296px;
+    margin: 0 100px 0px 250px;
+}
+.zag {
+    margin: 20px 0 60px 230px;
+    font-size: 96px;
+}
+.two_num{
+    margin: 20px 0 10px 250px;
+}
+.pot{
+    font-size: 20px;
+    margin: -95px 0px 70px 472px;
+}
+.slaider_two_text{
+    width: 175px;
+}
+.dey_two,.dey_twoo{
+    width: 195px;
+}
+.dey_twoo{
+    margin-bottom: 50px;
+}
+.link{
+    margin-left: 250px;
+    padding: 10px 30px;
+    border-radius:5px;
+    border: 2px #E2AB3F solid;
+}
+.link:hover{
+    color: #fff;
+    background:#E2AB3F;
+}
+.hover:hover{
+    border-radius:10px;
+    background:#E2AB3F;
+}
+.Slaider__two{
+    position: relative;
+}
+.img__back__two,.img__next__two{
+    position: absolute;
+    z-index: 1;
+    top: 400px;
+}
+.img__back__two{
+    left: 20px;
+}
+.img__next__two{
+    right:20px;
+}
+.SultanCanve__box-1,.SultanCanve__box-2{
+    height: 600px;
+}
+.SultanCanve__box{
+    display: flex;
+}
+.SultanCanve__box-1{
+    width: 500px;
+    background:url('../img/Rectangle\ 24.png') no-repeat center center/cover;
+}
+.SultanCanve__box-2{
+    padding-left: 44px;
+    width: 700px;
+}
+.Cave__text{
+    margin: 0px 20px 0px 50px;
+}
+.Sultan__text , .Cave__text{
+    width: 493px;
+    height: 73px;
+    font-size: 15px;
+}
+.Sultan__text{
+    margin: 20px 0px 0px 50px;
+}
+.Canve__block{
+    display: flex;
+    justify-content: space-between;
+}
+.Cave__box{
+    width: 493px;
+    margin-left: 51px;
+    padding-top: 50px;
+}
+.block-1 ,.block-2 {
+    width: 230px;
+}
+.canve{
+    margin-top: 30px;
+}
+h2 , h3{
+    font-size: 96px;
+    color: #E2AB3F;
+    margin: 100px 0px 0px 0px;
+}
+.Canve__p{
+    margin: -30px 0px 100px 130px;
+    font-size: 24px;
+    font-weight: 300;
+}
+.Price__box{
+    display: flex;
+    margin-top: 150px;
+}
+.Box__block{
+    width: 550px;
+}
+.Group{
+    z-index: 0;
+    margin-top: -345px;
+    margin-left: 331px;
+}
+.Price__text{
+    z-index: 1;
+    width: 150px;
+    margin-bottom: 50px;
+}
+.Price__two__p{
+    z-index: 1;
+    width: 471px;
+    margin: 20px 0;
+    height: 20px;
+}
+.Price---two{
+    margin: 40px 0;
+}
+.date{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 70px 0px 150px 0px;
+}
+.form__box-1,.form__box-2{
+    width: 600px;
+    height: 650px;
+}.date__form{
+    font-size: 80px;
+    height: 150px;
+    margin: 65px 0px 0px 158px;
+}
+.date___form{
+    font-size: 80px;
+    margin: 0px 0px 0px 258px;
+}
+.form__box-2{
+    background:url('../img/Rectangle 55.png') no-repeat center center/cover;
+}
+.form__p{
+    height: 20px;
+    margin: -70px 0px 0px 280px;
+}
+.formpp{
+    margin: -30px 0px 0px 380px;
+}
+.zai{
+    margin: 70px 0px 0px 130px;
+    font-size: 20px;
+}
+.input{
+    width: 400px;
+    margin-left: 75px;
+    text-align: center;
+
+}
+.text__input,.number__inupt{
+    width: 383px;
+    height: 50px;
+    font-size: 18px;
+    padding-left: 30px;
+    border:2px solid #E2AB3F;
+    border-radius:5px;
+}
+.text__input{
+    margin: 50px 0px 0px 0px;
+}
+.number__inupt{
+    margin: 20px 0px;
+}
+.buttun__form{
+    border:2px solid #E2AB3F;
+    padding: 10px 40px;
+    font-size: 20px;
+    border-radius:5px;
+    margin-left: 25px;
+    background:none;
+}
+#footer{
+    height: 1180px;
+    background:url('../img/Rectangle\ 42.png') no-repeat center center/cover;
+}
+.footer__box{
+    display: flex;
+    justify-content: space-between;
+    height: 800px;
+}
+.footer__h2{
+    margin-top: 270px;
+    font-size: 76px;
+    color: black;
+    font-weight: 400;
+}
+.footer__img{
+    margin-top: 150px;
+    z-index: 0;
+}
+.footer__h3{
+    font-size: 60px;
+    margin: -512px 0px 0px 100px;
+}
+.icon__footer{
+    display: inline-block;
+    flex-direction: column;
+}
+.fa-phone ,.fa-envelope {
+    margin: 10px 20px 0px 0px;
+    color: #E2AB3F;
+}
+.footer__i{
+    margin-top: -10px;
+}
+.icons{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    height: 50px;
+}
+.footer__icons{
+    margin-top: 50px;
+    margin-left: 60px;
+}
+.fa-youtube,.fa-facebook ,.fa-instagram{
+    color: #E2AB3F;
+}
